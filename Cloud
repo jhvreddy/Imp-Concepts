@@ -18,6 +18,10 @@ Robust security of a private cloud for sensitive data with the desire to harness
 Benefits of cloud
 -----------------
 1. High Availability --> downtime reduction, avoid revenue loss and maintain customer trust 
-2. Scalability --> During expansion/ High traffic spikes (Vertical scaling --> Scaling up , Horizantal scaling --> Scaling out)
+2. Scalability --> capability of a system to handle greater amount of load by adding resources to the system
+(Vertical scaling --> Scaling up , Horizantal scaling --> Scaling out)
 3. Predictability --> for effective budgeting and resource planning
-4. Governance
+4. Governance --> (Cloud financial mgmt, cloud operations mgmt, Cloud data mgmt, Cloud security and compliance management)
+5. Elasticity --> refers to the ability of cloud systems to dynamically allocate and deallocate resources on the fly 
+6. Reliable --> User application and data always accessible and protected against failures (Incident recovery)
+7. Security --> 
