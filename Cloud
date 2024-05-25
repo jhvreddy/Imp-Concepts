@@ -1,0 +1,23 @@
+Private cloud (Upfront Hardware costs, Sovereign control, Maintenance responsibility)
+-------------
+When Security and confidentiality of data is paramount 
+Full control over their data and resources as it is their own data center
+High levels of data security and operational performance
+
+Public cloud (Capital free scaling, Quick app provisioning and pay as you go cost)
+------------
+Scalability (To manage unpredictable traffic spikes --> expanding business)
+Azure, Amazon, Google and Oracle
+shared model
+rapidly depoly their services, scale on demand and only pay for what they use
+
+Hybrid cloud (versatile scalability, starategic application placement, organizational governance)
+------------
+Robust security of a private cloud for sensitive data with the desire to harness the scalability of a public cloud
+
+Benefits of cloud
+-----------------
+1. High Availability --> downtime reduction, avoid revenue loss and maintain customer trust 
+2. Scalability --> During expansion/ High traffic spikes (Vertical scaling --> Scaling up , Horizantal scaling --> Scaling out)
+3. Predictability --> for effective budgeting and resource planning
+4. Governance
