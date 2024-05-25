@@ -1,0 +1,2 @@
+The absolute path is the location of a file or directory starting from the root directory where as the relative path is the path in relation to the present working directory
+pushd command and popd command to manipulate diretoty stock
