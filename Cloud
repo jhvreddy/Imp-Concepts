@@ -18,10 +18,21 @@ Robust security of a private cloud for sensitive data with the desire to harness
 Benefits of cloud
 -----------------
 1. High Availability --> downtime reduction, avoid revenue loss and maintain customer trust 
-2. Scalability --> capability of a system to handle greater amount of load by adding resources to the system
-(Vertical scaling --> Scaling up , Horizantal scaling --> Scaling out)
+2. Scalability --> capability of a system to handle growing amount of load by adding resources to the system
+(Vertical scaling --> Scaling up , Horizantal scaling --> Scaling out) ability to react to demand to increase/decrease no of instances
 3. Predictability --> for effective budgeting and resource planning
 4. Governance --> (Cloud financial mgmt, cloud operations mgmt, Cloud data mgmt, Cloud security and compliance management)
-5. Elasticity --> refers to the ability of cloud systems to dynamically allocate and deallocate resources on the fly 
+5. Elasticity --> refers to the ability of cloud systems to dynamically allocate and deallocate resources on the fly (instance level matches with the demand)
 6. Reliable --> User application and data always accessible and protected against failures (Incident recovery)
 7. Security --> 
+8. Manageabiity --> Operational efficiency, performance optimization, cost management
+
+cloud service types
+-------------------
+Iaas --> It provides you with raw infrastructure (servers, storage and networking), you can just build anything on top of these servers.
+        we are responsible for managing everything from operating system up to the application you are running. so the servers are given
+        to you, you just have to choose OS be it windows/linux. Then install your application and publish your service (Eg :Azure VM)
+Pass --> It provides you a platform with tools to create and depoly applications (OS + developmet tools in addition to Iass) 
+        runtime Environment is set 
+Saas --> Just subscribe to the service and start using , everything will be managed by service provider
+
