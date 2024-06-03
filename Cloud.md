@@ -36,3 +36,4 @@ Pass --> It provides you a platform with tools to create and depoly applications
         runtime Environment is set 
 Saas --> Just subscribe to the service and start using , everything will be managed by service provider
 
+<img width="1440" alt="Screenshot 2024-05-27 at 7 36 43 PM" src="https://github.com/jhvreddy/Imp-Concepts/assets/100144454/eebdcca9-f5b4-4273-aa52-eff47aede5c7">
