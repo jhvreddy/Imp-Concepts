@@ -15,7 +15,7 @@ Leadership team wants to understand how their talented staff’s job roles chang
 
 On-Premises Job Roles
 ---------------------
-IT Solutions Architect : A solutions architect designs and implements IT systems architectures that meet the set business requirements. Their role starts with gathering the requirements, understanding the specifications, evaluating the systems that are in place, and working closely with stakeholders to deliver the right solution.
+``IT Solutions Architect`` : A solutions architect designs and implements IT systems architectures that meet the set business requirements. Their role starts with gathering the requirements, understanding the specifications, evaluating the systems that are in place, and working closely with stakeholders to deliver the right solution.
 
 System Administrator : System administrator keeps servers operational. They ensure servers meet uptime goals. Responsible for patching, updating operating systems, hardware and hypervisors. They make sure of backups.
 
