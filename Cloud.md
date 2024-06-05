@@ -1,3 +1,35 @@
+AWS Cloud for Business
+----------------------
+More companies are seeing the value and benefit of moving to a cloud environment. 
+
+The traditional on-premises model for managing IT applications and infrastructure is highly manual and often uses expensive equipment at less than full capacity. In contrast, an AWS Cloud environment helps businesses drive innovation because of its ability to increase development speed and provide near-limitless scale. And the speed, scale, innovation, and productivity benefits help businesses pursue bigger, broader digital opportunities, now and in the future. 
+
+Speed: With the AWS Cloud, organizations can experiment with applications and new business models at lower cost and greater speed. 
+Scale: The AWS Cloud creates opportunities for organizations to scale products almost instantaneously to a broader set of customer segments, geographies, and channels.     
+Innovation: Using the AWS Cloud means that roles that were once required for on premises will move to a shared responsibility model. This frees up your team to innovate and use technologies such as advanced analytics, the Internet of Things, or IoT, and automation at scale.
+Productivity: The adoption of cloud principles such as infrastructure and security as code helps to automate compliance and other routine processes, which speeds up productivity.  
+
+The AWS Global Cloud Infrastructure is the most secure, extensive, and reliable cloud platform, offering more than 200 fully featured services from data centers globally. Whether you need to deploy your application workloads across the globe in a single click or you want to build and deploy specific applications closer to your end-users with single-digit millisecond latency, AWS provides you the cloud infrastructure where and when you need it. 
+
+Leadership team wants to understand how their talented staff’s job roles change if they migrate to AWS Cloud.  They wants to learn how specific high-level job roles in their on-premises IT department will translate to the AWS Cloud.
+
+On-Premises Job Roles
+---------------------
+IT Solutions Architect : A solutions architect designs and implements IT systems architectures that meet the set business requirements. Their role starts with gathering the requirements, understanding the specifications, evaluating the systems that are in place, and working closely with stakeholders to deliver the right solution.
+
+System Administrator : System administrator keeps servers operational. They ensure servers meet uptime goals. Responsible for patching, updating operating systems, hardware and hypervisors. They make sure of backups.
+
+Network administrator : They administer network access points. They are concerned with security around personal access, configurations and VPNs.
+
+Desktop administrator : They administer installing and maintaining applications on desktop and laptop computers. They work with Network administrator for network and security configurations.
+
+Applications administrator : They handle web and customer applications. They work with sys admins to host and maintain applications on servers. they also partner with the Network admins for application access control.
+
+Database Administrator : They administers database by working with the system admins on the servers that the database is on. They work with network admins for database access control.
+
+![image](https://github.com/jhvreddy/Imp-Concepts/assets/100144454/e11fcb61-e0dc-48c0-a3b8-e16e5a5c9edb)
+
+
 Private cloud (Upfront Hardware costs, Sovereign control, Maintenance responsibility)
 -------------
 When Security and confidentiality of data is paramount 
