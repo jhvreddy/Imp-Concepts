@@ -59,7 +59,9 @@ Because the DevOps Administrator is responsible for orchestrating the pipeline, 
 Map On-Premises Job Roles to Job Roles in the Cloud
 ---------------------------------------------------
 IT Solutions architect --> AWS Solutions Architect (He/She is the Subject matter expert (SME) for the team. They are the go-to for anything related to the cloud.
+
 System, Network and Desktop administrators --> AWS System Operations Professional and AWS Security administrators
+
 Database adnd Application Development administrators --> AWS DevOps Administrator
 
 Private cloud (Upfront Hardware costs, Sovereign control, Maintenance responsibility)
