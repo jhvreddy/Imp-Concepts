@@ -108,6 +108,15 @@ Saas --> Just subscribe to the service and start using , everything will be mana
 
 Azure Architecture Components
 -----------------------------
+``Regions and Availability zones``
+Selecting the region to host servers close to user base can significantly reduce the latency and provide them seamless experience.
+AZ's help in mitigating downtime risk by taking care of power and network outages as they maintain seperate powerlines. These data centers within a azure region are interconnected through a network of private fiber optic cables, that means if we depoly the application across the AZs I can have high availability and also on the other hand latency will be very less
+
+What if the entire region goes down as in case of natural disaster ?
+we have something called azure regional pairs, it ensures that there is a disaster recovery region in case our primary region goes down.
+For example South east asia is having a pair with East asia.There will be automatic replication among these two pairs (backup is upto date).
+Updates to Azure services are meticulously planned and executed. They are rolled out sequential across regional peers rather than simulataneously.
+
 Management groups --> subscriptions --> Resource groups --> resources
 
 Azure Subscriptions are used as a billing boundary and an access control boundary for Azure resources. They help manage costs and resources used. They are used to manage billing and access to cloud resources. A subscription contains one or more resource groups.
