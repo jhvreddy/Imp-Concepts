@@ -123,6 +123,10 @@ Azure Subscriptions are used as a billing boundary and an access control boundar
 
 An Azure Resource Group serves as a container for holding related resources for an Azure solution. Besides organizing resources, it also allows for the delegation of permissions at the group level, making it easier to manage access control for a collection of resources.
 
+Subscriptions are also where you control access, They allow you to specify who can do what by setting permissions for users, provisioning resources.For instance you have Dev Subscription for developers to experiment ans test, Test Subscription for quality assurance and Production Subscription for live customer facing services. Each subscription can have its own rules and permissions, makinf sure that people can only access the resources they need to do their jobs. 
+
+To group all the multiple subscriptions , management groups comes into picture. you can have upto 10000 management groups within azure active directory.
+
 ![image](https://github.com/jhvreddy/Imp-Concepts/assets/100144454/007eaec5-da45-4d55-82fa-d1177c4be04e)
 
 
