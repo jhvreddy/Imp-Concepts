@@ -125,8 +125,17 @@ An Azure Resource Group serves as a container for holding related resources for 
 
 Subscriptions are also where you control access, They allow you to specify who can do what by setting permissions for users, provisioning resources.For instance you have Dev Subscription for developers to experiment ans test, Test Subscription for quality assurance and Production Subscription for live customer facing services. Each subscription can have its own rules and permissions, makinf sure that people can only access the resources they need to do their jobs. 
 
-To group all the multiple subscriptions , management groups comes into picture. you can have upto 10000 management groups within azure active directory.
+To group all the multiple subscriptions , management groups comes into picture. you can have upto 10000 management groups within azure active directory. you can have upto six levels of management groups
 
 ![image](https://github.com/jhvreddy/Imp-Concepts/assets/100144454/007eaec5-da45-4d55-82fa-d1177c4be04e)
+
+Compute and Networking
+----------------------
+Compute types --> VM, App service, Container instances, AKS, Azure virtual desktop, Function apps
+Azure VM --> with this you have the power and flexibility of a physical computer coupled with scalability, security and cost efficiency of azure cloud
+Avialability set --> A Feature in azure that ensures that application is available during planned and unplanned maintenance events. There are two core concepts when it comes to availability set (Fault domain and update domain)
+
+within the data center there will be three fault domains, each of these fault domain will have its own power source,networking swutches and cooling capabilities
+<img width="955" alt="Screenshot 2024-06-08 at 12 34 01 PM" src="https://github.com/jhvreddy/Imp-Concepts/assets/100144454/42d16b7b-bfe7-47ef-ae7c-780bab44ba6d">
 
 
