@@ -67,14 +67,19 @@ Database adnd Application Development administrators --> AWS DevOps Administrato
 Private cloud (Upfront Hardware costs, Sovereign control, Maintenance responsibility)
 -------------
 When Security and confidentiality of data is paramount 
+
 Full control over their data and resources as it is their own data center
+
 High levels of data security and operational performance
 
 Public cloud (Capital free scaling, Quick app provisioning and pay as you go cost)
 ------------
 Scalability (To manage unpredictable traffic spikes --> expanding business)
+
 Azure, Amazon, Google and Oracle
+
 shared model
+
 rapidly depoly their services, scale on demand and only pay for what they use
 
 Hybrid cloud (versatile scalability, starategic application placement, organizational governance)
