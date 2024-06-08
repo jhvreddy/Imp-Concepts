@@ -138,6 +138,7 @@ Compute and Networking
 ----------------------
 Compute types --> VM, App service, Container instances, AKS, Azure virtual desktop, Function apps
 Azure VM --> with this you have the power and flexibility of a physical computer coupled with scalability, security and cost efficiency of azure cloud
+
 ``Avialability set`` --> A Feature in azure that ensures that application is available during planned and unplanned maintenance events. There are two core concepts when it comes to availability set (Fault domain and update domain)
 
 within the data center there will be three fault domains, each of these fault domain will have its own power source,networking switches and cooling capabilities
@@ -150,5 +151,29 @@ Azure VMs provide you with computing power of a physical server virtualized in t
 VMSS is a service in azure that allows you to deploy and manage a set of identical, autoscaling VMs
 
 ``Azure Virtual Desktop``
+Azure Virtual Desktop on Microsoft Azure is a desktop and app virtualization service that runs on the cloud. Azure Virtual Desktop works across devices, like Windows, Mac, iOS, Android, and Linux, with apps that you can use to access remote desktops and apps. You can also use most modern browsers to access Azure Virtual Desktop-hosted experiences.
+
+Users have the freedom to connect to Azure Virtual Desktop with any device over the internet. They use an Azure Virtual Desktop client to connect to their published Windows desktop and applications.
+
+Azure Virtual Desktop lets you use Windows 10 Enterprise multi-session, the only Windows client-based operating system that enables multiple concurrent users on a single virtual machine (VM). Azure Virtual Desktop also provides a more consistent experience with broader application support compared to Windows Server-based operating systems.
+
+Azure Virtual Desktop is easier to deploy and manage than traditional Remote Desktop Services (RDS) or virtual desktop infrastructure (VDI) environments. You don't have to provision and manage servers and server roles like the gateway, connection broker, diagnostics, load balancing, and licensing.
+
+Azure APP Services
+------------------
+It is a fully managed platform for building, deploying and scaling webapps. Azure App Service is an HTTP-based service for hosting web applications, REST APIs, and mobile back ends. You can develop in your favorite language, be it .NET, .NET Core, Java, Node.js, PHP, and Python. Applications run and scale with ease on both Windows and Linux-based environments.
+
+Azure App Service is a fully managed platform as a service (PaaS) offering for developers. Here are some key features of App Service:
+1. It supports Multiple languages and framework.
+2. It has native integration with Azure DevOps , github and Docker Hub allowing for continuous deployment and seamless workflows.
+
+Azure Container Services
+------------------------
+Containers are light weight and easy to deploy, it does not need any guest OS concept. Here container runtime will be responsible for running the containers
+
+<img width="1382" alt="Screenshot 2024-06-08 at 9 21 53 PM" src="https://github.com/jhvreddy/Imp-Concepts/assets/100144454/5e64778c-dc4b-4984-a486-9e28fd3af2da">
+
+Overall three services --> Azure Container instances, Azure container apps and Azure K8s service
+
 
 
