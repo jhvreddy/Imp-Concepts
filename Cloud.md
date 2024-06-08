@@ -138,9 +138,17 @@ Compute and Networking
 ----------------------
 Compute types --> VM, App service, Container instances, AKS, Azure virtual desktop, Function apps
 Azure VM --> with this you have the power and flexibility of a physical computer coupled with scalability, security and cost efficiency of azure cloud
-Avialability set --> A Feature in azure that ensures that application is available during planned and unplanned maintenance events. There are two core concepts when it comes to availability set (Fault domain and update domain)
+``Avialability set`` --> A Feature in azure that ensures that application is available during planned and unplanned maintenance events. There are two core concepts when it comes to availability set (Fault domain and update domain)
 
-within the data center there will be three fault domains, each of these fault domain will have its own power source,networking swutches and cooling capabilities
+within the data center there will be three fault domains, each of these fault domain will have its own power source,networking switches and cooling capabilities
 <img width="955" alt="Screenshot 2024-06-08 at 12 34 01 PM" src="https://github.com/jhvreddy/Imp-Concepts/assets/100144454/42d16b7b-bfe7-47ef-ae7c-780bab44ba6d">
+
+Fault domain is about protecting the machines from hardware failure, while update domains is about protecting the machines from plan maintenance like updates and all those things
+
+``Azure VM Scale Set``
+Azure VMs provide you with computing power of a physical server virtualized in the cloud, but what if you need not just one but a fleet of VMs that can grow or shrink in response to your application need.
+VMSS is a service in azure that allows you to deploy and manage a set of identical, autoscaling VMs
+
+``Azure Virtual Desktop``
 
 
