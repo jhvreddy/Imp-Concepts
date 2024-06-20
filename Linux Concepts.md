@@ -8,7 +8,8 @@ Linux is an operating system that uses a monolithic kernel architecture, where t
 ``Linux architecture``
 
 Kernel, on top of it like system libraries then on top of it compilers, user processes and system related softwares
-![linux architecture](https://github.com/jhvreddy/Imp-Concepts/assets/100144454/9e812340-598d-4c69-bfdf-a536b9349995)
+<img width="1187" alt="Screenshot 2024-06-20 at 11 13 06 AM" src="https://github.com/jhvreddy/Imp-Concepts/assets/100144454/8723e454-16fa-4b74-a282-1fd9f353c71e">
+
 
 
 ``kernel`` It is the heart of the OS, and the component responsible for communication between software and Hardware. it is responsile for 4 operations.The Linux kernel is responsible for managing system resources, such as CPU, memory, I/O devices, and network connections. It is also responsible for providing system services, such as process management, memory management, file system management, and network management
