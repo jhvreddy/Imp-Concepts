@@ -10,9 +10,9 @@ Linux is an operating system that uses a monolithic kernel architecture, where t
 Kernel, on top of it like system libraries then on top of it compilers, user processes and system related softwares
 <img width="1187" alt="Screenshot 2024-06-20 at 11 13 06 AM" src="https://github.com/jhvreddy/Imp-Concepts/assets/100144454/8723e454-16fa-4b74-a282-1fd9f353c71e">
 
-
-
 ``kernel`` It is the heart of the OS, and the component responsible for communication between software and Hardware. it is responsile for 4 operations.The Linux kernel is responsible for managing system resources, such as CPU, memory, I/O devices, and network connections. It is also responsible for providing system services, such as process management, memory management, file system management, and network management
+
+``System libraries`` Responsible for performing task
 
 Why Linux is popular?
 Linux is open source , secure , distributions (lof of flavours --> CentOS, ubuntu and Redhat) and fast
