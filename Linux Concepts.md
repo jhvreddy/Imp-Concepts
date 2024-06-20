@@ -1,5 +1,4 @@
-Linux
------
+#Linux
 Linux is an operating system that uses a monolithic kernel architecture, where the kernel is the central component of the operating system and controls all hardware and software resources.
 
 ``OS`` It drives as the medium for communication between Software and Hardware, it acts as a bridge between Software and Hardware
@@ -16,7 +15,7 @@ Kernel, on top of it like system libraries then on top of it compilers, user pro
 
 Whenever a user sends a request it has to go from your software to your operating systemto your Hardware finally the response is also received back in the same way (vice versa)
 
-``Why Linux is popular`` It is open source , secure , distributions (lof of flavours --> CentOS, ubuntu and Redhat) and fast
+**`Why Linux is popular`** It is open source , secure , distributions (lof of flavours --> CentOS, ubuntu and Redhat) and fast
 
 
 
