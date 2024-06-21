@@ -15,9 +15,7 @@ Kernel, on top of it like system libraries then on top of it compilers, user pro
 
 Whenever a user sends a request it has to go from your software to your operating systemto your Hardware finally the response is also received back in the same way (vice versa)
 
-```
-Why Linux is popular
-``` 
+``Why Linux is popular``
 - It is open source , secure , distributions (lof of flavours --> CentOS, ubuntu and Redhat) and fast
 
 
