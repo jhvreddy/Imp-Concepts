@@ -30,3 +30,5 @@ more --> you can view the text files in a scrollable manner (space --> scrolls t
 less --> upword arrow, down arrow, / 
 
 command line help --> whatis, man, command -h/--help, apropos
+
+echo "This is not empty file" > /home/thor/contents_file.txt
