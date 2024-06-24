@@ -19,7 +19,6 @@ Whenever a user sends a request it has to go from your software to your operatin
 - It is open source , secure , distributions (lof of flavours --> CentOS, ubuntu and Redhat) and fast
 
 
-
 The absolute path is the location of a file or directory starting from the root directory where as the relative path is the path in relation to the present working directory
 
 pushd command and popd command to manipulate directory stack
@@ -31,4 +30,12 @@ less --> upword arrow, down arrow, /
 
 command line help --> whatis, man, command -h/--help, apropos
 
+Create file with content inside /home/thor/ directory. file name : contents_file.txt
+
+content : This is not empty file
+```
 echo "This is not empty file" > /home/thor/contents_file.txt
+```
+(To copy a directory) ```cp -r asia/india/bangalore/ .``` 
+
+
