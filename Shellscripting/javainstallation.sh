@@ -17,3 +17,20 @@ sudo yum install java-11-openjdk -y
 echo "Java has installed successfully and Java version is : "
 java -version
 fi
+
+
+
+java -version
+if [ $? -eq 0 ]
+then
+echo "Java has already installed"
+else
+echo "Java has not installed"
+echo "please type the version of java which you want to install"
+read reqjavaversion
+sudo yum install $reqjavaversion -y
+echo "java installed succesfully"
+echo "java version is: "
+java -version
+fi
+
