@@ -16,7 +16,18 @@ Sol: Since README.md is already staged, commit it using the command git commit -
 ```
 git commit -m "Add instructions for verification"
 ```
-
 ```
 git commit -am "Increase time from 400 to 500"
+```
+Sarah has written a story lion-and-mouse.txt under /home/sarah/story-blog/. Please commit it to local git repo Add commit message: Added the lion and mouse story
+```
+git add .;git commit -m "Added the lion and mouse story"
+```
+You can list the changed files as well using the --name-only option with the git log command
+```
+git log --name-only
+```
+What is the option for git log command to display the logs in compact way (one log per line)?
+```
+git log --oneline
 ```
