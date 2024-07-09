@@ -16,5 +16,7 @@ Sol: Since README.md is already staged, commit it using the command git commit -
 ```
 git commit -m "Add instructions for verification"
 ```
+
+```
 git commit -am "Increase time from 400 to 500"
 ```
