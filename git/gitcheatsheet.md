@@ -15,5 +15,6 @@ You are asked to commit the README.md file with the commit message Add instructi
 Sol: Since README.md is already staged, commit it using the command git commit -m "Add instructions for verification". Then add and commit the js/theme.js file using git commit -am "Increase time from 400 to 500"
 ```
 git commit -m "Add instructions for verification"
+```
 git commit -am "Increase time from 400 to 500"
 ```
