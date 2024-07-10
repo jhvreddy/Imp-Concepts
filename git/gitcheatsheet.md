@@ -6,13 +6,11 @@ To configure the git user who will be the owner of the commit.
 ```
 git config user.email sarah@example.com;git config user.name sarah
 ```
-Untracked (working stage) files still under GIT's radar. If you run the "git add ." command accidentally git will start to track this file. adding notes.txt file to .gitignore file
+Untracked (working stage) files still under GIT's radar. If you run the "git add ." command accidentally git will start to track this file. adding notes.txt file to .gitignore file so that it won't be tracked
 ```
 echo notes.txt >> .gitignore
 ```
 You are asked to commit the README.md file with the commit message Add instructions for verification and the js/theme.js file with the message Increase time from 400 to 500 Note that the README.md file is already staged. So you just have to commit it. The file js/theme.js is to be committed as part of another commit.
-
-Sol: Since README.md is already staged, commit it using the command git commit -m "Add instructions for verification". Then add and commit the js/theme.js file using git commit -am "Increase time from 400 to 500"
 ```
 git commit -m "Add instructions for verification"
 ```
@@ -30,4 +28,16 @@ git log --name-only
 What is the option for git log command to display the logs in compact way (one log per line)?
 ```
 git log --oneline
+```
+Sarah decides to write a new story - 🐸 The Frogs and Ox 🐂. Let's create and checkout a new branch named story/frogs-and-ox
+```
+git checkout -b story/frogs-and-ox
+```
+HEAD always points to the last commit on the currently checked-out branch.
+
+Looking at the commit history, try to guess what branch was the feature/signout branch created from?
+Checkout branch feature/signout and then use the command git log --graph --decorate to see previous commit history along with the branch they were committed on. Try individual commands or club both into single command like below
+
+```
+git checkout feature/signout; git log --graph --decorate
 ```
