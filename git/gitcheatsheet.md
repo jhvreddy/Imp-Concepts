@@ -41,3 +41,10 @@ Checkout branch feature/signout and then use the command git log --graph --decor
 ```
 git checkout feature/signout; git log --graph --decorate
 ```
+Let's now configure the remote repository for the local repository
+```
+git remote add origin http://git.example.com/sarah/
+```
+```
+git push origin master
+```
