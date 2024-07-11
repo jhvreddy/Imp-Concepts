@@ -48,3 +48,15 @@ git remote add origin http://git.example.com/sarah/
 ```
 git push origin master
 ```
+command to check the remote repository details
+```
+git remote -v
+```
+we got Max to push his changes to the remote repository. But he pushed them to the master branch directly. We don't want people to do that.
+The master branch is the final version of the story. It should always only have content that has been reviewed and approved. We cannot just allow everyone to directly push to the master branch. So let's do it the right way this time.
+
+
+
+
+
+
