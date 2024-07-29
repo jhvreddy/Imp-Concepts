@@ -44,7 +44,13 @@ We have to enable httpd service so that it starts automatically when system boot
 ```
 sudo systemctl enable httpd
 ```
-We have added a new python flask based service called app. In which systemd unit file is this service configured? /usr/lib/systemd/system/app.service
+We have added a new python flask based service called app. In which systemd unit file is this service configured? **/usr/lib/systemd/system/app.service**
+
+DNS is used to **resolve the IP of Domain name**
+
+On a Linux based system, which of the following file can be used to point domains/hostnames to IPs locally? **cat /etc/hosts**
+
+On a Linux based system, which of the following file contains information about dns server i.e nameserver? **cat /etc/resolv.conf**
 
 Download target file to host01, target file name : dummy.pdf 
 target file URL: https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
@@ -54,6 +60,7 @@ cd /home/thor; curl -O https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources
 ```
 wget https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf -O /home/thor/dummy.pdf
 ```
-To know the OS running on the server? etc/*release*
-which versio of OS runnnig on the server ? cat/etc/centos-release / cat /etc/redhat-release
+To know the OS running on the server? **etc/*release***
+which versio of OS runnnig on the server ? **cat/etc/centos-release / cat /etc/redhat-release**
+
 
