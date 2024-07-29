@@ -40,6 +40,12 @@ echo "This is not empty file" > /home/thor/contents_file.txt
 ```
 cp -r asia/india/bangalore/ .
 ```
+We have to enable httpd service so that it starts automatically when system boots up and we dont need to manually start the service. (/etc/systemd)
+```
+sudo systemctl enable httpd
+```
+We have added a new python flask based service called app. In which systemd unit file is this service configured? /usr/lib/systemd/system/app.service
+
 Download target file to host01, target file name : dummy.pdf 
 target file URL: https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
 target directory: /home/thor
