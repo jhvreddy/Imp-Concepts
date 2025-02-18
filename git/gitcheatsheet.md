@@ -2,7 +2,7 @@ First, identify the operating system this lab environment is built on
 ```
 cat /etc/*release*
 ```
-Install GIT on the system
+Install GIT on the Ubuntu system
 ```
 sudo apt update
 ```
