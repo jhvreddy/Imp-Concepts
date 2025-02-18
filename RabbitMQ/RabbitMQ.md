@@ -5,4 +5,5 @@ RabbitMQ is a message broker that helps applications communicate with each other
 2. **Queue** – The storage space where messages are temporarily kept.
 3. **Consumer** – The application that receives and processes messages.
 4. **Exchange** – Determines how messages are routed to different queues.
+   
 Producers send messages to **exchanges**, which then distribute them to appropriate **queues**. Consumers pull messages from the queue and process them.
