@@ -1,4 +1,15 @@
-To use git --help option, first you need to install man 
+First, identify the operating system this lab environment is built on
+```
+cat /etc/*release*
+```
+Install GIT on the system
+```
+sudo apt update
+```
+```
+sudo apt install git -y
+```
+You may view additional help on each command following the syntax git help <command>.  For this you must first install git man pages using the command
 ```
 sudo apt-get install git-man
 ```
