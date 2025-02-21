@@ -17,3 +17,12 @@ RabbitMQ is commonly used in:
 4. `IoT Applications` – Used for managing communication between millions of IoT devices.
 5. `Data Streaming & Analytics` – Works as an event bus to handle real-time data processing.
 6. `E-Commerce & Financial Systems` – Used for order processing, transaction management, and fraud detection.
+
+
+Components
+
+Publisher/Producer, Exchange , Queues and Consumer. Publisher and Consumer are clients to RabbitMQ because these are related to our applications
+
+First Publisher will try to make a connection with broker , we will call the function of client library (based on Programming language and protocol used) to make a connection to RabbitMQ by mentioning the host (server where RabbitMQ is running) along with protocol AMQP. 
+
+Client library will make a packet at application layer which will have certain information about host and protocol and then it will be passed over another 6 layers (presentation, session, transport, Network, Datalink and physical) of OSI model. Each layer will add certain more information, if we talk about  Transport layer AMQP uses TCP protocol 
