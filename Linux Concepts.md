@@ -60,7 +60,13 @@ cd /home/thor; curl -O https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources
 ```
 wget https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf -O /home/thor/dummy.pdf
 ```
-To know the OS running on the server? **etc/*release***
-which versio of OS runnnig on the server ? **cat/etc/centos-release / cat /etc/redhat-release**
+To know the OS running on the server? **etc/release**
+
+which version of OS runnnig on the server ? **cat/etc/centos-release / cat /etc/redhat-release**
+
+# 10 Linux commands every Software Engineer should know
+
+``top`` It helps you monitor system performance in Realtime (active processes, CPU/Memory utilization)
+**htop** (better readability) 
 
 
