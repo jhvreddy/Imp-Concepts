@@ -36,10 +36,13 @@ content : This is not empty file
 ```
 echo "This is not empty file" > /home/thor/contents_file.txt
 ```
-(To copy a directory) 
+To copy a target directory to local
 ```
 cp -r asia/india/bangalore/ .
 ```
+To know the Current user on a host
+``whoami``
+
 We have to enable httpd service so that it starts automatically when system boots up and we dont need to manually start the service. (/etc/systemd)
 ```
 sudo systemctl enable httpd
