@@ -47,8 +47,10 @@ cp -r asia/india/bangalore/ .
 ``rpm -q openssh-server python3 ansible telnet`` To know which is installed and which is not!!
 
 Remove ftp with rpm 
-``rpm -qa | grep ftp`` to know the exact package, then
-``sudo rpm -e ftp-0.17-89.el9.x86_64``
+
+``rpm -qa | grep ftp`` to know the exact package, then ``sudo rpm -e ftp-0.17-89.el9.x86_64``
+
+
 
 We have to enable httpd service so that it starts automatically when system boots up and we dont need to manually start the service. (/etc/systemd)
 ```
