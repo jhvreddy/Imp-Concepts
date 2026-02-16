@@ -40,8 +40,9 @@ To copy a target directory to local
 ```
 cp -r asia/india/bangalore/ .
 ```
-To know the Current user on a host
-``whoami``
+``whoami`` To know the Current user on a host
+To know the OS running on the server? **etc/release**
+which version of OS runnnig on the server ? **cat/etc/centos-release (or) cat /etc/redhat-release**
 
 We have to enable httpd service so that it starts automatically when system boots up and we dont need to manually start the service. (/etc/systemd)
 ```
@@ -54,18 +55,6 @@ DNS is used to **resolve the IP of Domain name**
 On a Linux based system, which of the following file can be used to point domains/hostnames to IPs locally? **cat /etc/hosts**
 
 On a Linux based system, which of the following file contains information about dns server i.e nameserver? **cat /etc/resolv.conf**
-
-Download target file to host01, target file name : dummy.pdf 
-target file URL: https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
-target directory: /home/thor
-
-cd /home/thor; curl -O https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
-```
-wget https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf -O /home/thor/dummy.pdf
-```
-To know the OS running on the server? **etc/release**
-
-which version of OS runnnig on the server ? **cat/etc/centos-release (or) cat /etc/redhat-release**
 
 # 10 Linux commands every Software Engineer should know
 
