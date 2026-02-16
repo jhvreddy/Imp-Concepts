@@ -42,9 +42,7 @@ cp -r asia/india/bangalore/ .
 ```
 ``whoami`` To know the Current user on a host
 
-To know the OS running on the server? **cat /etc/*release**
-
-which version of OS runnnig on the server ? **cat/etc/centos-release (or) cat /etc/redhat-release**
+``cat /etc/*release`` To know the OS running on the server? 
 
 We have to enable httpd service so that it starts automatically when system boots up and we dont need to manually start the service. (/etc/systemd)
 ```
