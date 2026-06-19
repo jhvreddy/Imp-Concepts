@@ -1,0 +1,121 @@
+5 Linux Commands that will make you fall in Love with Linux
+============================================================
+Which file or folder is eating up the space on file system
+du -sh (hidden in nested folders --> need for loop to debug)
+brew install ncdu (mac) / sudo apt install ncdu / sudo yum install ncdu
+ncdu
+
+unable to recollect the exact syntax of the command
+man
+brew install tldr
+tldr
+eg tldr find (top 10 use cases of find command)
+tldr ps
+
+
+we want to find a particular pattern
+grep (Usually complex when you have to search it over nested folders/files)
+brew install rg
+
+rg insane (you want to search word insane among the all files)
+
+how find a particular file name (lets say ID card)
+grep/find/list command
+brew install fzf
+
+fzf (enter and search for your file name)
+
+
+
+open and read the file from terminal
+cat (interface not much interesting)
+
+bat filename (Proper coloring, numbering)
+
+
+
+5 Linux Commands that makes you feel like a Hacker (Pro Engineer)
+=================================================================
+
+1. ranger - navigate and read your files
+2. lazygit - to see all the operations you performed on git
+3. lazydocker - to see all the containers running and all the operations on docker
+4. glances - to see all the process running on your machine
+5. cmatrix - provides you hacker like vibes
+
+How do you navigate through the project as it have multiple folders and files when you have group of projects in git repos
+ls difficult (when you have multiple files and folders)
+Usually we use visual studio code (import project and use from there)
+ 
+ 
+ranger (it will gui) --> right click and open folder/sub folders/files (ctrl C + Q to come out of ranger)
+
+
+
+git status/ git log/ git diff/ git stash (multiple git commands instead you can use one command)
+
+lazygit
+
+brew install lazydocker
+lazydocker
+
+brew install glances
+glances (advance version of top/htop command)
+all the processes running your machines
+
+
+
+cat error.log | grep Database > database_errors.txt
+
+cp database_errors.txt /root/db_errors.txt (copied to another location for backup)
+ls /root
+cat /root/db_errors.txt
+
+cat database_errors.txt | grep "connetion refused" | wc -l 
+
+To find database configuration file
+====================================
+find / -name "*.conf" | grep db (to find it in entire file system)
+find / -name "*.conf*" | grep db
+
+diff db.conf db.conf.backup
+
+find . -type d (all directories in current working directory)
+
+
+Analyze logs // Printed out error messages // Fixed the issues // Created backups
+
+find . -type f -name "app.txt" (files with name app.txt in current directory)
+ls -R | grep "app.txt"
+
+
+How can we display content of all the .txt files with one command in a directory
+
+find . -type f -name "app.txt" | xargs cat ( "xargs" takes input from strandard input (stdin) and turns it into arguments for another command )
+
+find . -type f -name "app.txt" | xargs cat | grep "ERROR"
+
+find . -type f -name "app.txt" | xargs cat | grep "ERROR" | sort (time ascending)
+
+find . -type f -name "app.txt" | xargs cat | grep "ERROR" | sort -k4 (instead of time stamp, sort based on our required field, here it is 4)
+
+find . -type f -name "app.txt" | xargs cat | grep "ERROR" | sort -k4 | uniq (It checks only entire line is unique/not)
+
+find . -type f -name "app.txt" | xargs cat | grep "ERROR" | sort -k4 | uniq -f3 (check the uniqness from specific field)
+
+
+find . -type f -name "app.txt" | xargs cat | grep "ERROR" | sort -k4 | uniq -f3  > errors.log
+
+
+find . -type f -name "*.txt" -exec cp {} /Users/nana/backup \;
+exec tells linux to execute a specific command for each file that it finds
+
+find . -type f -name "*.txt" -exec cp rsync -R {} /Users/nana/backup \;
+rsync used for efficiently copying and synchronizing files and directories between a source and destination (widely used during backup) 
+
+
+
+How do we check whether a service is accessible at a specific port
+
+curl https://www.google.com
+curl -I http://localhost:5432 (-I here fetches only the headers of a web page, basically metadata without downloading the full response of the service)
